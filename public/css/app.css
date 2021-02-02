@@ -1,0 +1,32 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+body a {
+  color: #000;
+}
+
+main {
+  flex-grow: 1;
+}
+main .container-home {
+  height: 100%;
+}
+main .box-info {
+  margin: 40px auto;
+  height: 300px;
+  width: 200px;
+  background-image: url("../img/pantaloni.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .box-info a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 21px;
+}
